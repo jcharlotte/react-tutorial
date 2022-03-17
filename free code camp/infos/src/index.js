@@ -5,7 +5,7 @@ import Main from "./Main"
 import Footer from "./Footer"
 import "./index.css"
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ function Page() {
   )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
