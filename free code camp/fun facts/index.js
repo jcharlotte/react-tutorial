@@ -18,7 +18,7 @@ Hints:
 
 const page = (
     <div>
-    <img src='./react-logo.png'></img>
+    <img src='./react-logo.png' width="40px"></img>
     <h1>Fun Facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
