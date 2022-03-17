@@ -1,6 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-
 /*
 Challenge: Starting from scratch, build and render the 
 HTML for our section project. Check the Google slide for 
