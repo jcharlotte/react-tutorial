@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: #21222A;
+    color: #DEEBF8;
+}
+
+.navbar {
+    padding: 30px;
+}
