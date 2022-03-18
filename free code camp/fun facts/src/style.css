@@ -15,3 +15,27 @@ body {
 .navbar {
     padding: 30px;
 }
+
+.nav-title > h4 {
+    font-weight: 600;
+}
+
+.main {
+    background-color: #282D35;
+    color: #fff;
+    padding: 60px 0 130px 0;
+}
+
+.main--title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 46px;
+    letter-spacing: -0.05em;
+}
+
+.main--list >li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-block: 11px;
+}
