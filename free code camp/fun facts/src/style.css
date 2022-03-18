@@ -23,7 +23,10 @@ body {
 .main {
     background-color: #282D35;
     color: #fff;
-    padding: 60px 0 130px 0;
+    padding: 60px 0 110px 0;
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .main--title {
@@ -37,5 +40,10 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 19px;
-    padding-block: 11px;
+    padding-block: 10px;
+}
+
+.main--list > li::marker {
+    font-size: 1.9rem;
+    color: #61DAFB;
 }
