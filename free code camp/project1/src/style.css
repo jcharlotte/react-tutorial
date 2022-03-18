@@ -1,0 +1,111 @@
+body {
+    background-color: #23252C;
+    color: #DCDCDC;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pfp {
+    width: 45vh;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.info, .about, .interests, .footer {
+    width: 45vh;
+}
+
+.info--bg, .about--bg, .interests--bg {
+    background-color: #1A1B21;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--bg {
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 50px;
+}
+
+.footer--bg > a {
+    width: 30px;
+    margin: 20px;
+}
+
+.info--bg {
+    align-items: center;
+}
+
+.info--title{
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    padding-top: 21px;
+}
+
+.info--details {
+    color: #d65573;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.email--button {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16 0 32 0;
+    width: 75%;
+}
+
+.button--icon{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.email--button > a {
+    color: #374151;
+    margin: 0;
+    text-decoration: none;
+}
+
+.about--title, .interests--title {
+    font-weight: 700;
+    margin: 35px 35px 0 60px;
+}
+
+.about--p{
+    margin: 10px 50px 10px 60px;
+}
+
+.interests--p{
+    margin: 10px 50px 35px 60px;
+}
+
+.about--p > span {
+    font-weight: bold;
+}
+
+.react {
+    color: #61DAFB;
+}
+
+.quote {
+    font-style: italic;
+    border-left: 2px solid #ccc;
+    padding-left: 5px;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
