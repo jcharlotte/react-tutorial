@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    padding: 22px 36px ;
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+.hero {
+    padding-top: 50px;
+}
+
+.hero--text {
+    font-family: Poppins, sans-serif;
+    padding-top: 60px;
+}
+
+.hero--text > h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 110%;
+}
+
+.hero--text > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    margin-right: 50%;
+    }
