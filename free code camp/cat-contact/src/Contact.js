@@ -1,4 +1,6 @@
 import React from "react"
+import phoneIcon from "./images/phone-icon.png"
+import mailIcon from "./images/mail-icon.png"
 
 export default function Contact(props) {
     console.log(props)
@@ -7,11 +9,11 @@ export default function Contact(props) {
             <img src={props.img} />
             <h3>{props.name}</h3>
             <div className="info-group">
-                <img src="./images/phone-icon.png" />
+                <img src={phoneIcon} />
                 <p>{props.phone}</p>
             </div>
             <div className="info-group">
-                <img src="./images/mail-icon.png" />
+                <img src={mailIcon} />
                 <p>{props.email}</p>
             </div>
         </div>
